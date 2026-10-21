@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E5070 FAP PARTICLE FILTER SYSTEM FUNCTIONAL DESCRIPTION · Fiat ULYSSE</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.0 16V JTD; all production periods; only with equipment: MY 2005. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS &gt; E5070 FAP PARTICLE FILTER SYSTEM &gt; E5070 FAP PARTICLE FILTER SYSTEM FUNCTIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat ULYSSE workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="179007984.html">Electrical equipment</a> › <a href="179007985.html">1 ELECTRICAL FUNCTIONS</a> › <a href="179008177.html">E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS</a> › <a href="179009338.html">E5070 FAP PARTICLE FILTER SYSTEM</a> › <span>E5070 FAP PARTICLE FILTER SYSTEM FUNCTIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E5070</span> FAP PARTICLE FILTER SYSTEM FUNCTIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS &gt; E5070 FAP PARTICLE FILTER SYSTEM &gt; E5070 FAP PARTICLE FILTER SYSTEM FUNCTIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.0 16V JTD; all production periods; only with equipment: MY 2005</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fUlss/en/#/179009345">https://sloeber94.github.io/elrnDB-fUlss/en/#/179009345</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.0 16V JTD; all production periods; only with equipment: MY 2005</p><p>Engine management control unit M010 controls and governs the entire electronic ignition and injection system and consequently the FAP system as well.</p><p>Control unit M010 communicates via the CAN line (pins A3 and A4 of connector A) with body computer node M001 (pins 8 and 10 connector D).</p><p><a href="179007485.html">See E1050 CAN CONNECTION LINES</a></p><p>Body computer M001 (pins 25 and 27 connector E) is also connected (via the CAN line) to engine compartment junction unit B001 (pins 11 and 12 connector F respectively).</p><p>Diesel additive control unit M180 manages the addition of additive to the fuel.</p><p>Control unit M180 is connected (pins 6 and 7) via the CAN line to body computer node M001 (pins 35 and 37 connector E), which (pin 12 connector B) also supplies it with power (pin 1).</p><p>Control unit M180 is also connected (pins 9 and 10) to diesel additive fuel pump N176 (pins 3 and 4 respectively) and (pins 16 and 15) to diesel additive level sensor K186 (pins 1 and 2 respectively).</p><p>The injector main relay inside engine compartment junction unit B001 controls the entire system: it is energized by a control signal coming from pin H2 of connector B of the control unit M010.</p><p><a href="179009253.html">See E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT</a></p><p>Once excited, it supplies power (pin 24 connector B of B001) to injection pump piston third deactivation solenoid L005 (pin 2) and intake air heating solenoid L097 (pin 1) via a line protected by fuse F10.</p><p>During artificial regeneration, injection pump piston third deactivation solenoid L005 controls the thirdhigh pressure pump piston to ensure the correct fuel flow required for post-injection. pin 1 is connected to pin A4 of connector B of engine control unit M010.</p><p>The following are also connected to control unit M010 (connector B):</p><p>- intake air heating solenoid L097, which is controlled at pin 2 by pin B3;</p><p>- temperature sensor downstream of catalytic converter K188, with pins 1 and 2 on pins F3 and E3 respectively;</p><p>- differential pressure sensor K187, with pins 1, 2 and 3 on pins D3, M3 and H2 respectively;</p><p>- Body computer node M001, with pin 8 of connector B on pin C3;</p><p>- heated water intake solenoid L006, with pin 2 on pin C2.</p><p>Pin 1 of L006 is connected to pin 3 of connector B of body computer node M001.</p></section>
+<h2>Topics linked from this page (2)</h2><ul><li><a href="179007485.html">E1050 CAN CONNECTION LINES</a> <span class="meta">chapter (index of subtopics) · all engines; all production periods</span></li><li><a href="179009253.html">E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT</a> <span class="meta">chapter (index of subtopics) · engines: 2.0 16V JTD; all production periods; only with equipment: MY 2005 and FAP</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fUlss/en/">https://sloeber94.github.io/elrnDB-fUlss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E3040 CENTRAL LOCKING - OPERATIONAL DESCRIPTION · Fiat ULYSSE</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: Child locks and MY 2005. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3040 CENTRAL LOCKING &gt; E3040 CENTRAL LOCKING - OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat ULYSSE workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="179007984.html">Electrical equipment</a> › <a href="179007985.html">1 ELECTRICAL FUNCTIONS</a> › <a href="179007539.html">E30 ELECTRICALLY ACTIVATED DEVICES</a> › <a href="179008953.html">E3040 CENTRAL LOCKING</a> › <span>E3040 CENTRAL LOCKING - OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E3040</span> CENTRAL LOCKING - OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3040 CENTRAL LOCKING &gt; E3040 CENTRAL LOCKING - OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: Child locks and MY 2005</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fUlss/en/#/179008961">https://sloeber94.github.io/elrnDB-fUlss/en/#/179008961</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: Child locks and MY 2005</p><p>The central locking system is managed by the body computer node M001.</p><p>The steering wheel node M093 receives the door open/closed signal from the remote control.</p><p>The command issued (door opening or closure) is sent via the CAN line from steering wheel node control unit M093 (pins 1 and 3 connector A) to body computer node M001 (pins 5 and 3 connector G respectively); the body computer node (pin 11 connector B and pin 1 connector G) supplies it with two lines (pin 5 connector A and pin 4 connector D respectively), of which only the latter is protected by fuse F04.I</p><p>The command for opening/closing the doors can also be sent by the internal switch I110.</p><p>Pressing the special switch on unit I110 (pin 6) sends an earth signal indicating that the locks have been locked/unlocked from pin 6 to the body computer node M001 (pin 28 connector I). Body computer M001 (pin 9 connector D and pin 12 connector F) also supply power to I110 (pins 1 and 4 respectively).</p><p>Rear lock electric motors N055, N056 (pins 3, 1) and front lock electric motors N050, N051 (pins 7, 2) are supplied by the body computer node M001 (pins 13 and 15 connector F respectively), which controls door opening or closure depending on the command received.</p><p>A superclosure signal is sent from pin 16 of connector F of body computer node M001 to pin 8 of left front lock N050 and right front lock N051.</p><p>The child safety catch closure signal is sent from pin 2 of connector H of body computer node M001 to pin 3 of left rear motor N151 and right rear motor N152. Pin 1 of the above motors is connected to pin 15 of connector F of M001.</p><p>Front catches N050, N051 communicate with body computer M001:</p><p>- from pins 9 and 5, door locked/unlocked status, to pins 27 and 29 respectively of connector L;</p><p>- from pin 6, door open/closed status, to pins 4 and 5 respectively of the same connector.</p><p>Sliding side door opening is indicated (pin 1) by special switches I018 (left) and I019 (right) to body computer M001 (pins 34 and 33 connector L respectively).</p><p>Electric boot lock N057 is commanded (pin 1) from body computer M001 (pin 35 connector I) and also sends (pin 3) a boot lid closure signal (pin 13 connettore L).</p><p>The signal from boot lid switch I011 (pin 1) is also sent to body computer node M001 (pin 10 connector I).</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fUlss/en/">https://sloeber94.github.io/elrnDB-fUlss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

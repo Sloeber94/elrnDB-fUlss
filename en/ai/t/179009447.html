@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7020 FUNCTIONAL DESCRIPTION OF ABS · Fiat ULYSSE</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7020 ABS &gt; E7020 FUNCTIONAL DESCRIPTION OF ABS">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat ULYSSE workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="179007984.html">Electrical equipment</a> › <a href="179007985.html">1 ELECTRICAL FUNCTIONS</a> › <a href="179008254.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="179009440.html">E7020 ABS</a> › <span>E7020 FUNCTIONAL DESCRIPTION OF ABS</span></nav>
+<h1><span class="code">E7020</span> FUNCTIONAL DESCRIPTION OF ABS</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7020 ABS &gt; E7020 FUNCTIONAL DESCRIPTION OF ABS</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fUlss/en/#/179009447">https://sloeber94.github.io/elrnDB-fUlss/en/#/179009447</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005</p><p>The ABS function is managed by ABS control unit M050.</p><p>Control unit M050 is supplied at connector A from engine compartment control unit B001:</p><p>- at pin 2, by a line protected by fuse MF02 from pin 2 of connector D;</p><p>- at pin 3, by a line protected by fuse MF03 from pin 3 of connector D;</p><p>- at pin 18, by a line protected by fuse F07 from pin 3 of connector F;</p><p>Control unit M050 communicates via the CAN line (pin 26 and 15, 14 and 25 connector A) with the body computer node M001) (pins 2 and 4, 25 and 27 connector E, pins 8 and 10 connector D), with engine control unit M010 (pins A3 and A4 connector A), with instrument panel E050 (pins 6 and 12), with warning light and odometer control unit M140 (pins 2 and 5) and with engine compartment control unti B001 (pins 11 and 12 connector F).</p><p>Control unit M050 (pins 16-5, 9-10, 6-17, 8-19 connector A respectively) controls the speed of each wheel via left front wheel sensor K070 (pin 1 and 2), right front wheel sensor K071 (pins 1 and 2), left rear wheel sensor K075 (pins 1 and 2) and right rear wheel sensor K076 (pins 1 and 2).</p><p>Left brake wear sensor K020 and right brake wear sensor K021 (pin 1 connector A) send an earth signal to control unit M050 (pin 22 connector A).</p><p>Brake fluid level signal sensor K02 (pin 1) is connected to M050 (pin 21 connector A), which sends signals (via the CAN line) to control units E050 and M140.</p><p>Instrument panel E050 (pin 13) and warning light and odometer control unit M140 (pin 4) are supplied by body computer node M001 (pin 6 connector D) via a line protected by fuse F14.</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>There is a second &quot;redundant&quot; switch on the brake pedal used, in particular, by the engine management control unit and the ABS control unit. The &quot;basic&quot; switch (I030) is the &quot;normally open&quot; type (when the pedal is pressed, the switch closes), whilst the &quot;redundant&quot; switch (I035) is the &quot;normally closed&quot; type (when the pedal is pressed, the switch contact opens): the system checks the consistency of the &quot;pedal pressed&quot; information in this way.</p></aside><p>The brake pedal pressed signal reaches brake pedal switch I030:</p><p>- pin 1 is connected via a line protected by fuse F31 to pin G31 of connector G of supplementary fuse box B098;</p><p>- pin 2 is connected to pin 4 of connector B of body computer node M001 and with pin 20 of connector A of control unitM050.</p><p>Pin 1 of redundant switch I035 is connected to pin 20 of connector F of engine compartment junction unit B001 via a line protected by fuse F06, while pin 2 is connected to pin E4 of connector A of control unitM010.</p><p>Pin 2 of clutch pedal switch I031 is connected to pin E3 of connector A of control unit M010 and pin 1 is connected to pin 9 of connector B of M001.</p><p>Control unit M050 (pin 11 connector A) is equipped with a self-diagnostic function: The control unit autodiagnostic data can be read by connecting to connector R010 (pin 12).</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fUlss/en/">https://sloeber94.github.io/elrnDB-fUlss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

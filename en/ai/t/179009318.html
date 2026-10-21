@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E5060 CRUISE CONTROL FUNCTIONAL DESCRIPTION · Fiat ULYSSE</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS &gt; E5060 CRUISE CONTROL &gt; E5060 CRUISE CONTROL FUNCTIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat ULYSSE workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="179007984.html">Electrical equipment</a> › <a href="179007985.html">1 ELECTRICAL FUNCTIONS</a> › <a href="179008177.html">E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS</a> › <a href="179009311.html">E5060 CRUISE CONTROL</a> › <span>E5060 CRUISE CONTROL FUNCTIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E5060</span> CRUISE CONTROL FUNCTIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS &gt; E5060 CRUISE CONTROL &gt; E5060 CRUISE CONTROL FUNCTIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fUlss/en/#/179009318">https://sloeber94.github.io/elrnDB-fUlss/en/#/179009318</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005</p><p>The Cruise Control function is managed by the engine control unit M010.</p><p>All cruise control function controls are supplied by steering wheel node control unit M093 (pins 1, 3 connector A) to body computer node M001 (pins 5, 3 connector G respectively) and then from this node (pins 8 and 10 connector D) to engine control unit M010 (pins A3 and A4 connector A). The signal is sent via the CAN network.</p><p><a href="179007485.html">See E1050 CAN CONNECTION LINES</a></p><p>Body computer M001 (pin 11 connector B and pin 1 connector G) supplies steering wheel node control unit M093 (pin 5 connector A and pin 4 connector D respectively) via two lines, of which only the second is protected by fuse F04.</p><p>The command from the steering wheel node control unit M093 activates the system and communicates the constant speed to be maintained.</p><p>The system is disengaged as soon as brake pedal I030 or clutch pedal I031 is pressed (on versions with a manual gearbox only); if the accelerator pedal K055 is pressed, the system is disengaged temporarily and reset when the pedal is released.</p><p>Brake pedal I030 is connected (pin 2) to body computer node M001 (pin 4 connector B) and supplementary fuse box B098 (pin G31 connector B). This latter conection is made via a line protected by fuse F31 located inside the control unit.</p><p>Accelerator pedal K055 (pins 1, 2, 3, 4) is connected to engine control unit M010 (pin G3, H3, C2, G2 connector A respectively) and is equipped with two built-in potentiometers: a main one and one safety one.</p><p>Clutch pedal switch I031 is interfaced on one side (pin 2) with engine control unit M010 (pin E3 connector A) and on the other (pin 1) with body computer node M001 (pin 9 connector B).</p><p>The safety switch on brake pedal I035 is also connected (pin 2) to control unit M010 (pin E4 connector A) and receives power at pin 1.</p><p><a href="179009253.html">See E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT</a></p><p>Switches I031 and I035 supply the cruise control activation signal to control unit M010.</p><p>The &quot;redundant&quot; switch I035 is the &quot;normally closed&quot; type (when the pedal is pressed, the switch contact opens): the system checks the consistency of the &quot;pedal pressed&quot; information in this way.</p><p>Warning light activation is controlled by odometer warning light node M140, which communicates via CAN line (pins 2 and 5) with instrument panel E050 (pins 6 and 12) and body computer node M001 (pins 8 and 10 connector D).</p><p>The latter (M001 pin 6 connector D) supplies power to both components E050 (pin 13) and M140 (pin 4).</p></section>
+<h2>Topics linked from this page (2)</h2><ul><li><a href="179007485.html">E1050 CAN CONNECTION LINES</a> <span class="meta">chapter (index of subtopics) · all engines; all production periods</span></li><li><a href="179009253.html">E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT</a> <span class="meta">chapter (index of subtopics) · engines: 2.0 16V JTD; all production periods; only with equipment: MY 2005 and FAP</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fUlss/en/">https://sloeber94.github.io/elrnDB-fUlss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

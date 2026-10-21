@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E2030 FOG LIGHTS FUNCTIONAL DESCRIPTION · Fiat ULYSSE</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E20 EXTERIOR LIGHTING &gt; E2030 FOG LIGHTS &gt; E2030 FOG LIGHTS FUNCTIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat ULYSSE workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="179007984.html">Electrical equipment</a> › <a href="179007985.html">1 ELECTRICAL FUNCTIONS</a> › <a href="179008007.html">E20 EXTERIOR LIGHTING</a> › <a href="179008626.html">E2030 FOG LIGHTS</a> › <span>E2030 FOG LIGHTS FUNCTIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E2030</span> FOG LIGHTS FUNCTIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E20 EXTERIOR LIGHTING &gt; E2030 FOG LIGHTS &gt; E2030 FOG LIGHTS FUNCTIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fUlss/en/#/179008640">https://sloeber94.github.io/elrnDB-fUlss/en/#/179008640</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005</p><p>The command for switching on the fog lights is sent by the steering wheel node M093 via the CAN line (pins 1 and 3 of connector A) to the body computer node M001 (to pins 5 and 3 of connector G respectively).</p><p>The steering wheel node control unit M093 is connected to earth C015 (connector A) via pin 4 of connector A and receives a supply from two lines: one, from pin 11 of connector B of the body computer node M001 at pin 5 of connector A; the other, from pin 1 of connector G of M001 at pin 4 of connector D, protected by fuse F04.</p><p>In turn, the body computer node M001 informs the engine compartment junction unit B001 (pins 12 and 11 respectively of connector F) of the request to switch on the fog lights via the CAN line (pins 25 and 27 of connector E).</p><p>The engine compartment junction unit B001 supplies pin 24 of the left front lamps F010 and the right front lamps F011 (respectively) via pins 6 and 6 of connector G.</p><p>The switching on of the warning lights is managed by the milometer warning lights node M140 which communicates via the CAN (pins 2 and 5) with the instrument panel E050 (pins 6 and 12) and the body computer node M001 (pins 8 and 10 connector D).</p><p>The body computer node M001 supplies the milometer warning lights node M140, via pin 6 of connector D, at pin 4 and the instrument panel E050 at pin 13. This line is protected by fuse F14.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fUlss/en/">https://sloeber94.github.io/elrnDB-fUlss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

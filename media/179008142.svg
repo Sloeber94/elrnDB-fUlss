@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 9.0, SVG Export Plug-In  -->
+
+<svg  width="198.425pt" height="113.386pt" viewBox="0 0 198.425 113.386" xml:space="preserve">
+	<g id="Background" style="fill-rule:nonzero;clip-rule:nonzero;stroke:#000000;stroke-miterlimit:4;">
+	</g>
+	<g id="Guides" style="fill-rule:nonzero;clip-rule:nonzero;stroke:#000000;stroke-miterlimit:4;">
+	</g>
+	<g id="Foreground" style="fill-rule:nonzero;clip-rule:nonzero;fill:none;stroke:#000000;stroke-width:0.5669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;">
+		<g style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:3.8637;">
+			<g style="fill-rule:nonzero;clip-rule:nonzero;stroke-width:0.8504;">
+				<path d="M47.397,56.692c0-10.519,8.528-19.045,19.046-19.045c10.52,0,19.047,8.527,19.047,19.045c0,10.519-8.527,19.046-19.047,19.046c-10.519,0-19.046-8.527-19.046-19.046z"/>
+				<path d="M66.443,56.692"/>
+			</g>
+			<path style="fill-rule:nonzero;clip-rule:nonzero;stroke-width:0.8504;" d="M107.693,77.064c-7.512,15.183-23.162,25.624-41.25,25.624c-25.403,0-45.996-20.592-45.996-45.995s20.593-45.994,45.996-45.994c18.073,0,33.698,10.423,41.232,25.585"/>
+			<path style="stroke-width:0.8504;" d="M177.977,56.639v-8.445l-0.786-0.051c-0.577-0.09-0.748-0.434-0.511-1.031l1.083-1.255v-5.713l-3.427-4.109h-8.797c-0.224,8.224-5.388,9.152-9.135,6.224h-24.213c-1.187,1.381-3.484,1.656-8.114,1.427
+				c-7.88-0.568-14.002-2.912-16.427-7.411"/>
+			<path d="M177.763,45.713v-3.189l-3.427-4.11h-8.797c-0.224,8.224-5.388,9.152-9.135,6.224h-24.213c-1.187,1.381-3.484,1.656-8.114,1.427c-7.88-0.568-13.977-5.282-16.401-9.782"/>
+			<path d="M174.336,36.034v2.38"/>
+			<path d="M165.539,36.034v2.38"/>
+			<path d="M156.404,42.258v2.381"/>
+			<path d="M132.191,42.258v2.381"/>
+			<path style="stroke-width:0.8504;" d="M177.977,56.639v8.446l-0.786,0.051c-0.577,0.09-0.748,0.434-0.511,1.031l1.083,1.255v5.713l-3.427,4.109h-8.797c-0.224-8.223-5.388-9.152-9.135-6.224h-24.213c-1.187-1.381-3.484-1.656-8.114-1.427c-7.88,0.568-14.002,2.912-16.427,7.411"
+				/>
+			<path d="M177.763,67.564v3.189l-3.427,4.109h-8.797c-0.224-8.223-5.388-9.152-9.135-6.224h-24.213c-1.187-1.381-3.484-1.656-8.114-1.427c-7.88,0.568-13.977,5.282-16.401,9.781"/>
+			<path d="M174.336,77.244v-2.381"/>
+			<path d="M165.539,77.244v-2.381"/>
+			<path d="M156.404,71.02v-2.381"/>
+			<path d="M132.191,71.02v-2.381"/>
+		</g>
+		<g style="stroke:none;">
+			<path d="M0,0h198.425v113.386H0V0z"/>
+			<path d="M99.213,56.693"/>
+		</g>
+	</g>
+</svg>

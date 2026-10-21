@@ -1,0 +1,28 @@
+# Fiat ULYSSE workshop manual (text version)
+
+> Official eLearn workshop manual for the Fiat ULYSSE, English. Engines: 2.0 16v, 3.0 24V V6, 2.0 16V JTD, 2.2 16V JTD. Production periods: fino a 04/03, da 04/03. Each topic is a separate HTML page with its path, applicability, and links to and from related topics.
+
+Start with the guide, then follow links. Use the lookups to jump from a component, fuse or operation code to its pages.
+
+## Start here
+- [Guide: how the manual is organised, code systems, wire colours](https://sloeber94.github.io/elrnDB-fUlss/en/ai/guide.html)
+- [Component index: component -> pinouts, replacement procedures, references](https://sloeber94.github.io/elrnDB-fUlss/en/ai/lookup/components.html)
+- [Fuse and relay index: rating, junction unit and every circuit that names it](https://sloeber94.github.io/elrnDB-fUlss/en/ai/lookup/fuses.html)
+- [Operation index: operation or test code -> topic](https://sloeber94.github.io/elrnDB-fUlss/en/ai/lookup/operations.html)
+- [All sections](https://sloeber94.github.io/elrnDB-fUlss/en/ai/index.html)
+
+## Sections
+- [Technical Data](https://sloeber94.github.io/elrnDB-fUlss/en/ai/t/179000422.html): technical data / specifications
+- [Descriptions](https://sloeber94.github.io/elrnDB-fUlss/en/ai/t/179006587.html): system description
+- [Fault diagnosis](https://sloeber94.github.io/elrnDB-fUlss/en/ai/t/179006654.html): fault diagnosis table (symptom -> numbered test steps)
+- [Test](https://sloeber94.github.io/elrnDB-fUlss/en/ai/t/179006783.html): test / check procedure
+- [Procedures](https://sloeber94.github.io/elrnDB-fUlss/en/ai/t/179006808.html): repair procedure (removal / refitting; the operation number is the code)
+- [Electrical equipment](https://sloeber94.github.io/elrnDB-fUlss/en/ai/t/179007984.html): 
+
+## Background notes
+- [data-model.md](https://sloeber94.github.io/elrnDB-fUlss/en/ai/notes/data-model.md): wire colour codes, connector-body colours, how pinouts describe every wire, what only the diagrams add
+- [rendering-rules.md](https://sloeber94.github.io/elrnDB-fUlss/en/ai/notes/rendering-rules.md): how the manual is structured: Removing/Refitting parts, Op. calls between procedures, variants
+
+## Optional
+- [Interactive site](https://sloeber94.github.io/elrnDB-fUlss/en/)
+- [All models](https://sloeber94.github.io/elrnDB/llms.txt)

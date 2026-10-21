@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E3040 CENTRAL LOCKING OPERATIONAL DESCRIPTION · Fiat ULYSSE</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3040 CENTRAL LOCKING &gt; E3040 CENTRAL LOCKING OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat ULYSSE workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="179007984.html">Electrical equipment</a> › <a href="179007985.html">1 ELECTRICAL FUNCTIONS</a> › <a href="179007539.html">E30 ELECTRICALLY ACTIVATED DEVICES</a> › <a href="179008929.html">E3040 CENTRAL LOCKING</a> › <span>E3040 CENTRAL LOCKING OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E3040</span> CENTRAL LOCKING OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3040 CENTRAL LOCKING &gt; E3040 CENTRAL LOCKING OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fUlss/en/#/179008937">https://sloeber94.github.io/elrnDB-fUlss/en/#/179008937</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>Operational Description</h2><p>The central locking is managed by the body computer node M001.</p><p>The steering wheel node M093 receives the door open/closed signal from the remote control.</p><p>The command (door opening or closing) is provided by the steering wheel node control unit M093 to the body computer node M001. The signal travels via the CAN which connects the two control units.</p><p>The steering wheel node control unit M093 receives a supply (pin 5 connector A) through the line protected by fuse F11, located in the body computer node M001; it receives a supply via the CAN (pin 6 connector A) from the line protected by fuse F16, located in the body computer node M001.</p><p>The command for opening/closing the doors can also be sent by the internal switch I110.</p><p>Pressing the special switch on unit I110 sends an earth signal indicating that the locks have been locked/unlocked from pin 6 to the body computer node M001 (pin 14 connector I).</p><p>Pins 1 and 4 of I110 receive a power supply to light up the LEDs at pin 9 connector D and at pin 12 connector F of the body computer node M001; the supply provided by pin 12 connector F of M001 is protected by fuse F12 and operated by a specific relay, both housed inside the body computer node.</p><p>The body computer node M001 sends supplies, from pins 13 and 15 connector F, to the electric motors for the door locks N055, N056, N050, and N051 opening or closing the doors depending on the command received.</p><p>The body computer node M001 sends the &quot;superlocking&quot; signal, from pin 16 connector F, to the front electric locks N050 and N051; this supply is protected by fuse F14 and operated by a specific relay, both housed inside the body computer node.</p><p>The child lock function on the rear doors is guaranteed by the additional motors N151 and N152 activated by the twin relay J136. The relay receives a CAN supply at the coils, at pins 1A and 1B, from the body computer node M001, from pin 3 connector F from the line protected by fuse F01.</p><p>The body computer node M001 energizes the coils for the relay J136 from pins 36 and 35 connector I at pins 2A and 2B. The relay is supplied, at pins 5A and 5B, by the box B098 from the line protected by fuse F38. When energized, the relay supplies electric motors N151 and N152 from pins 3A and 3B. At rest, pins 4A and 4B of the relay are connected to earth.</p><p>The front door locks N050 and N051 communicate, from pins 5 and 9, with the body computer M001, at pins 27 and 29 of connector L, informing it of the state of the door (locked/unlocked). The locks inform the body computer node, from pin 6, of the door status (open/closed) at pins 4 and 5.</p><p>The opening of the sliding side doors is signalled by specific switches I018 (left sliding side door) and I019 (right sliding side door) to pin 34 (left door) and 33 (right door) of connector L of M001.</p><p>The electric boot lock N057 is controlled by the body computer node M001 by pin 2 connector I and the boot closed signal is provided by pin 3 N057 to pin 16 connector I of the body computer node. The body computer node M001 receives the signal coming from the boot switch I011 at pin 17 of this connector.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fUlss/en/">https://sloeber94.github.io/elrnDB-fUlss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

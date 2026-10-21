@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E2010 SIDE LIGHTS/NUMBER PLATE LIGHT FUNCTIONAL DESCRIPTION · Fiat ULYSSE</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E20 EXTERIOR LIGHTING &gt; E2010 SIDE LIGHTS / NO. PLATE LIGHTS &gt; E2010 SIDE LIGHTS/NUMBER PLATE LIGHT FUNCTIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat ULYSSE workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="179007984.html">Electrical equipment</a> › <a href="179007985.html">1 ELECTRICAL FUNCTIONS</a> › <a href="179008007.html">E20 EXTERIOR LIGHTING</a> › <a href="179007994.html">E2010 SIDE LIGHTS / NO. PLATE LIGHTS</a> › <span>E2010 SIDE LIGHTS/NUMBER PLATE LIGHT FUNCTIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E2010</span> SIDE LIGHTS/NUMBER PLATE LIGHT FUNCTIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E20 EXTERIOR LIGHTING &gt; E2010 SIDE LIGHTS / NO. PLATE LIGHTS &gt; E2010 SIDE LIGHTS/NUMBER PLATE LIGHT FUNCTIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fUlss/en/#/179008001">https://sloeber94.github.io/elrnDB-fUlss/en/#/179008001</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005</p><p>The command to switch on the side/number plate lights is supplied by the steering wheel node control unit M093 via the CAN line (pins 1 and 3 of connector A) to the body computer node M001 (at pins 5 and 3 of connector G respectively).</p><p>The steering wheel node control unit M093 is connected to earth C015 (connector A) via pin 4 of connector A and receives a power supply, at pin 5 of the same connector, from pin 11 of connector B of Body computer node M001.</p><p>Having received the command, the Body computer node M001 provides a power supply:</p><p>- to pin 1 of the right rear light cluster F031, from pin 12 (connector I);</p><p>- to pin 1 of the left rear light cluster F030, from pin 13 (connector I);</p><p>- to pin 1 of the number plate lights F050 and F051, from pin 18 (connector I).</p><p>In addition, the Body computer node M001, acts at pins 12 and 11 (respectively) of connector F of the engine compartment junction unit B001 via the CAN line (pins 25 and 27 of connector E). The latter (via pins 11 and 12 of connector G) acts on pins 3 of the front right headlamp F011 and the front left headlamp F010 (respectively).</p><p>The switching on of this special warning light is managed by the milometer warning light node M140 which communicates, via the CAN (pins 2 and 5) with the instrument panel E050 (pins 6 and 12) and the body computer node M001 (pins 8 and 10 connector D).</p><p>The body computer node M001 supplies the milometer warning lights node M140, at pin 4 and the instrument panel E050 at pin 13, via pin 6 of connector D.</p><p>The solar/dusk sensor K125, provides information, via pins 1, 2, 4, concerning the outside light, to the Body computer node M001, at pins 3, 24, 26 (respectively) of connector L.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fUlss/en/">https://sloeber94.github.io/elrnDB-fUlss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

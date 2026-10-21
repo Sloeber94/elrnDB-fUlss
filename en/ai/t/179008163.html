@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E2011 DIPPED HEADLIGHTS FUNCTIONAL DESCRIPTION · Fiat ULYSSE</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E20 EXTERIOR LIGHTING &gt; E2011 DIPPED HEADLAMPS &gt; E2011 DIPPED HEADLIGHTS FUNCTIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat ULYSSE workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="179007984.html">Electrical equipment</a> › <a href="179007985.html">1 ELECTRICAL FUNCTIONS</a> › <a href="179008007.html">E20 EXTERIOR LIGHTING</a> › <a href="179008073.html">E2011 DIPPED HEADLAMPS</a> › <span>E2011 DIPPED HEADLIGHTS FUNCTIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E2011</span> DIPPED HEADLIGHTS FUNCTIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E20 EXTERIOR LIGHTING &gt; E2011 DIPPED HEADLAMPS &gt; E2011 DIPPED HEADLIGHTS FUNCTIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fUlss/en/#/179008163">https://sloeber94.github.io/elrnDB-fUlss/en/#/179008163</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.0 16V JTD, 2.2 16V JTD; all production periods; only with equipment: MY 2005</p><p>The low beam activation command is supplied by steering wheel node control unit M093 via CAN line (pins 1 and 3 of connector A) to body computer node M001 (at pins 5 and 3 of connector G respectively).</p><p>Steering wheel node control unit M093 is connected to earth C015 (connector A) via pin 4 of connector A, and is supplied by two lines: one, from pin 11 of connector B of body computer node M001 to pin 5 of connector A; the other, from pin 1 of connector G of M001 to pin 4 of connector D, protected by fuse F04.</p><p>In turn, body computer node M001 informs engine junction unit B001 (pins 12 and 11 respectively of connector F) via the CAN line (pins 25 and 27 of connector E) that a low beam activation request has been made.</p><p>Engine compartment junction unit B001 suppplies pin 1 of left headlamp F010 and right headlamp F011 via pins 25 and 26 of connector G.</p><p>Warning light activation is controlled by odometer warning light node M140, which communicates via CAN line E1050 (pins 2 and 5) with instrument panel E050 (pins 6 and 12) and body computer node M001 (pins 8 and 10 connector D).</p><p>Body computer node M001 supplies odometer warning light node M140 at pin 4 and instrument panel E050 at pin 13 via pin 6 of connector D. This line is protected by fuse F14.</p><p>Dawn-dusk sensor K125 supplies information on the exterior light conditions to body computer node M001, at pins 3, 24, 26 (respectively) of connector L via pins 1, 2, 4.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fUlss/en/">https://sloeber94.github.io/elrnDB-fUlss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

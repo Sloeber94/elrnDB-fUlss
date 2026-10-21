@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E5060 CRUISE CONTROL OPERATIONAL DESCRIPTION · Fiat ULYSSE</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS &gt; E5060 CRUISE CONTROL &gt; E5060 CRUISE CONTROL OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat ULYSSE workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="179007984.html">Electrical equipment</a> › <a href="179007985.html">1 ELECTRICAL FUNCTIONS</a> › <a href="179008177.html">E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS</a> › <a href="179009305.html">E5060 CRUISE CONTROL</a> › <span>E5060 CRUISE CONTROL OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E5060</span> CRUISE CONTROL OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS &gt; E5060 CRUISE CONTROL &gt; E5060 CRUISE CONTROL OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fUlss/en/#/179009307">https://sloeber94.github.io/elrnDB-fUlss/en/#/179009307</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>Operational Description</h2><p>The Cruise Control function is managed by the engine control unit M010.</p><p>All the Cruise Control function commands are supplied by the steering wheel node control unit M093 to the Body computer node M001. The signal travels via the CAN which connects the two control units.</p><p>The steering wheel node control unit M093 receives a supply (pin 5 connector A) through the line protected by fuse F11, located in the body computer node M001; it receives a supply via the CAN (pin 6 connector A) from the line protected by fuse F16, located in the body computer node M001.</p><p>The commands are sent, from the latter, via the CAN, to the ABS control unit M050 and from there to the engine management control unit M010 (pins E3, E4 connector B).</p><p>The command from the steering wheel node control unit activates the system and communicates the constant speed to be maintained.</p><p>The system is disengaged as soon as brake pedal I030 or clutch pedal I031 are pressed. If the accelerator pedal is pressed, the system is disengaged temporarily and reset when the pedal is released.</p><p>The accelerator pedal K055 has two built-in potentiometers (one main one and one safety one) and is connected to pins G3, C2, G2 and H3 of connector A of M010.</p><p>Clutch pedal switch I031 and the safety switch on the brake pedal for cruise control I035 supply a signal to indicate engagement has taken place to pins E3 and E4 of connector B of M010.</p><p>The two switches receive a supply from the ignition-controlled line protected by fuse F18 of the body computer M001.</p><p>The &quot;redundant&quot; switch I035 is the &quot;normally closed&quot; type (when the pedal is pressed, the switch contact opens): the system checks the consistency of the &quot;pedal pressed&quot; information in this way.</p><p>The warning light is switched on by the milometer warning lights node M140 which communicates with the instrument panel E050 and the body computer node M001 via the CAN.</p><p>The instrument panel E050 and the milometer warning lights node M140 receive a supply via the CAN (pin 13 of E50 and pin 4 of M140) through the line protected by fuse F24 of the body computer M001.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fUlss/en/">https://sloeber94.github.io/elrnDB-fUlss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>
